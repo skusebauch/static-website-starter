@@ -1,0 +1,46 @@
+//colors
+$color-background: #212529;
+
+$color-primary: #495057;
+$color-primary-light: #6c757d;
+$color-primary-dark: #343a40;
+
+$color-secondary: #499aff;
+$color-secondary-dark: #213757;
+
+// DIFFERENT GREY COLORS
+
+$color-grey-light-1: #faf9f9;
+$color-grey-light-2: #f4f2f2;
+$color-grey-light-3: #f0eeee;
+$color-grey-light-4: #ccc;
+
+$color-grey-dark-1: #333;
+$color-grey-dark-2: #777;
+$color-grey-dark-3: #999;
+
+$color-black: #000;
+$color-white: #fff;
+
+// FONT
+$default-font-size: 1.8rem;
+
+// BOX SHADOW
+
+$box-shadow: 0 1rem 3rem rgba($color-black, 0.4);
+
+// BACKGROUND IMAGES
+
+$background-image: linear-gradient(
+  to right bottom,
+  rgba($color-primary-light, 0.8),
+  rgba($color-primary-dark, 0.8)
+);
+
+// RESPONSIVE BREAKPOINTS
+$bp-extra: 106.25em; //1700px
+$bp-largest: 81.25em; // to compute em (want to add at 1300px first bp) 1300 / 16 = 81.25
+$bp-large: 64.38em; // 1030px
+$bp-medium: 56.25em; // 900px
+$bp-spec-medium: 45.94em; // 710px
+$bp-small: 37.5em; // 600px
